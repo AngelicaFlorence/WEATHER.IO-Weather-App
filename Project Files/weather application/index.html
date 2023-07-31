@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="weather__header">
+            <form class="weather__search">
+                <input type="text" placeholder="Search for a city" class="weather__searchform">
+                <i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
+            </form>
+            <div class="weather__minmax">
+                <p> min:28&#176C</p>
+                <p> max:28&#176C</p>
+            </div>
+        </div>
+        <div class="weather__body">
+            <h1 class="weather__city">Visakhapatnam</h1>
+            <div class="weather__datetime">
+                <p>Thursday 24 July 2023
+                    8:00 AM </p>
+            </div>
+            <div class="weather__icon">
+                <img src="https://openweathermap.org/img/wn/10d@4x.png" />
+                </div>
+            <div class="weather__forecast">
+                <p>rainy</p>
+            </div>
+        
+            <p class="weather__temperature">
+                28&#176C
+            </p>
+        
+        </div>
+        <div class="weather__info">
+            <div class="weather__card">
+                <i class="fa-solid fa-temperature-full"></i>
+                <div>
+                    <p>Real Feel:</p>
+                    <p class="weather__realfeel">30&#176C</p>
+                </div>
+            </div>
+            <div class="weather__card">
+                <i class="fa-solid fa-droplet"></i>
+                <div>
+                    <p>Humidity:</p>
+                    <p class="weather__humidity">60%</p>
+                </div>
+            </div>
+            <div class="weather__card">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                    <p>Wind Speed:</p>
+                    <p class="weather__wind">3km/h</p>
+                </div>
+            </div>
+            <div class="weather__card">
+                <i class="fa-solid fa-gauge-high"></i>
+                <div>
+                    <p>Pressure:</p>
+                    <p class="weather__pressure">1000hPa</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/a692e1c39f.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
